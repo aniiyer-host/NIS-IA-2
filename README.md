@@ -1,9 +1,9 @@
 # 🔍 Shodan Offline Analyzer
 
-### 👨‍💻 Team Members
-- Aniket Iyer 16010123044  
-- Aksh Maheshwari 16010123032 
-- Aarush Jain 16010123006 
+### 👨‍💻 Team Details
+- Aniket Iyer 16010123044 TY COMPS A
+- Aksh Maheshwari 16010123032 TY COMPS A
+- Aarush Jain 16010123006 TY COMPS A
 
 
 
