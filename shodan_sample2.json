@@ -1,0 +1,42 @@
+{
+    "ip_str": "192.168.1.10",
+    "org": "Example Hosting Ltd",
+    "os": "Linux",
+    "ports": [
+        22,
+        80,
+        443
+    ],
+    "data": [
+        {
+            "port": 22,
+            "transport": "tcp",
+            "product": "OpenSSH",
+            "version": "7.2p2",
+            "banner": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.8"
+        },
+        {
+            "port": 80,
+            "transport": "tcp",
+            "product": "Apache httpd",
+            "version": "2.4.18",
+            "banner": "Apache/2.4.18 (Ubuntu)"
+        },
+        {
+            "port": 443,
+            "transport": "tcp",
+            "product": "Apache httpd",
+            "version": "2.4.18",
+            "ssl": {
+                "cert": {
+                    "subject": {
+                        "CN": "example.com"
+                    },
+                    "issuer": {
+                        "CN": "Let's Encrypt Authority X3"
+                    }
+                }
+            }
+        }
+    ]
+}

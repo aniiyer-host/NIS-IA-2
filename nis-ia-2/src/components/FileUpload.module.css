@@ -1,0 +1,76 @@
+.dropzone {
+  border: 2px dashed var(--border);
+  border-radius: var(--radius-lg);
+  padding: 48px 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .25s ease;
+  background: var(--surface);
+  position: relative;
+  overflow: hidden;
+}
+.dropzone::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, var(--accent-glow) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity .3s;
+  pointer-events: none;
+}
+.dropzone:hover { border-color: var(--accent-dim); }
+.dropzone:hover::before { opacity: 1; }
+
+.dragging {
+  border-color: var(--accent) !important;
+  background: var(--bg-2);
+  transform: scale(1.01);
+  box-shadow: 0 0 40px var(--accent-glow);
+}
+.dragging::before { opacity: 1; }
+
+.iconWrap {
+  width: 72px; height: 72px;
+  border-radius: 50%;
+  background: var(--accent-glow);
+  border: 1px solid #00d4ff33;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 16px;
+  color: var(--accent);
+  animation: pulse-glow 3s ease infinite;
+  transition: transform .25s;
+}
+.dropzone:hover .iconWrap { transform: translateY(-4px); }
+
+.headline { font-size: 1.15rem; font-weight: 600; color: var(--text-1); margin-bottom: 6px; }
+.sub      { font-size: .875rem; color: var(--text-2); }
+.link     { color: var(--accent); text-decoration: underline; cursor: pointer; }
+
+.tip {
+  display: inline-flex; align-items: center; gap: 8px;
+  margin-top: 20px;
+  padding: 8px 14px;
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  font-size: .78rem;
+  color: var(--text-3);
+  font-family: var(--font-mono);
+}
+.tip code { color: var(--accent); }
+
+/* Loading state */
+.loadingState {
+  display: flex; flex-direction: column; align-items: center; gap: 16px;
+}
+
+.spinner {
+  width: 40px; height: 40px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+
+.loadingText { color: var(--text-2); font-size: .875rem; }
+.loadingText span { color: var(--accent); }

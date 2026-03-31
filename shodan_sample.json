@@ -1,0 +1,31 @@
+{
+    "ip_str": "192.168.1.10",
+    "org": "Example ISP",
+    "city": "Mumbai",
+    "country_name": "India",
+    "ports": [
+        22,
+        80,
+        23
+    ],
+    "data": [
+        {
+            "port": 22,
+            "product": "OpenSSH",
+            "version": "7.2p2",
+            "data": "SSH-2.0-OpenSSH_7.2p2 Ubuntu-4ubuntu2.10"
+        },
+        {
+            "port": 80,
+            "product": "Apache httpd",
+            "version": "2.4.49",
+            "data": "HTTP/1.1 200 OK\nServer: Apache/2.4.49"
+        },
+        {
+            "port": 23,
+            "product": "Telnet",
+            "version": "",
+            "data": "Welcome to Telnet service"
+        }
+    ]
+}

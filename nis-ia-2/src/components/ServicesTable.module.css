@@ -1,0 +1,86 @@
+.count {
+  font-size: .75rem;
+  color: var(--text-3);
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .875rem;
+}
+
+.th {
+  padding: 11px 14px;
+  background: var(--bg-2);
+  color: var(--text-3);
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  text-align: left;
+  user-select: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color .2s, background .2s;
+}
+
+.th:hover {
+  color: var(--accent);
+  background: var(--bg-3);
+}
+
+.th:first-child {
+  border-radius: var(--radius) 0 0 0;
+}
+
+.th:last-child {
+  border-radius: 0 var(--radius) 0 0;
+}
+
+.th span {
+  margin-right: 4px;
+}
+
+.sortIcon {
+  color: var(--text-3);
+}
+
+.tr {
+  border-top: 1px solid var(--border);
+  transition: background .15s;
+}
+
+.tr:hover {
+  background: var(--surface-2);
+}
+
+.td {
+  padding: 10px 14px;
+  color: var(--text-1);
+  vertical-align: middle;
+}
+
+.cpe {
+  font-family: var(--font-mono);
+  font-size: .78rem;
+  color: var(--text-3);
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.empty {
+  text-align: center;
+  padding: 32px;
+  color: var(--text-3);
+  font-size: .875rem;
+}

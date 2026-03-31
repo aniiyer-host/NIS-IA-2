@@ -1,0 +1,84 @@
+.count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  background: var(--accent-glow);
+  border: 1px solid #00d4ff33;
+  border-radius: 99px;
+  font-size: .7rem;
+  color: var(--accent);
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.portGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.portChip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--bg-2);
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+  cursor: default;
+}
+
+.portChip:hover {
+  transform: translateY(-2px);
+}
+
+.risk_high {
+  border-color: #ff444433;
+}
+
+.risk_high:hover {
+  border-color: var(--red);
+  box-shadow: 0 4px 20px var(--red-glow);
+}
+
+.risk_medium {
+  border-color: #ffaa0033;
+}
+
+.risk_medium:hover {
+  border-color: var(--yellow);
+  box-shadow: 0 4px 20px var(--yellow-glow);
+}
+
+.risk_low:hover,
+.risk_none:hover {
+  border-color: var(--green);
+  box-shadow: 0 4px 20px var(--green-glow);
+}
+
+.portIcon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.portInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  flex: 1;
+}
+
+.portNum {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-1);
+}
+
+.portSvc {
+  font-size: .75rem;
+  color: var(--text-2);
+}

@@ -1,0 +1,46 @@
+{
+    "ip_str": "198.51.100.25",
+    "org": "SecureCloud Inc",
+    "os": "Linux",
+    "ports": [
+        22,
+        80,
+        443
+    ],
+    "data": [
+        {
+            "port": 22,
+            "transport": "tcp",
+            "product": "OpenSSH",
+            "version": "8.9p1",
+            "banner": "SSH-2.0-OpenSSH_8.9p1 Ubuntu-3"
+        },
+        {
+            "port": 80,
+            "transport": "tcp",
+            "product": "nginx",
+            "version": "1.24.0",
+            "banner": "nginx/1.24.0"
+        },
+        {
+            "port": 443,
+            "transport": "tcp",
+            "product": "nginx",
+            "version": "1.24.0",
+            "ssl": {
+                "cert": {
+                    "subject": {
+                        "CN": "secure-example.com"
+                    },
+                    "issuer": {
+                        "CN": "Let's Encrypt Authority X3"
+                    }
+                },
+                "versions": [
+                    "TLSv1.2",
+                    "TLSv1.3"
+                ]
+            }
+        }
+    ]
+}
