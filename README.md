@@ -1,9 +1,9 @@
 #  Shodan Offline Analyzer
 
 ###  Team Details
+- Aarush Jain 16010123006 TY COMPS A
 - Aksh Maheshwari 16010123032 TY COMPS A
 - Aniket Iyer 16010123044 TY COMPS A
-- Aarush Jain 16010123006 TY COMPS A
 
 
 
