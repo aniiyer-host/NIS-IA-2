@@ -1,6 +1,6 @@
-# 🔍 Shodan Offline Analyzer
+#  Shodan Offline Analyzer
 
-### 👨‍💻 Team Details
+###  Team Details
 - Aniket Iyer 16010123044 TY COMPS A
 - Aksh Maheshwari 16010123032 TY COMPS A
 - Aarush Jain 16010123006 TY COMPS A
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 The **Shodan Offline Analyzer** is a web-based tool built using React (Vite) that analyzes Shodan JSON data without requiring live API access.  
 
@@ -23,9 +23,9 @@ This tool is designed for **learning, demonstration, and cybersecurity analysis 
 
 ---
 
-## ⚙️ Key Functionalities
+##  Key Functionalities
 
-### 🔍 1. Host Data Analysis
+###  1. Host Data Analysis
 - Parses Shodan host JSON data  
 - Extracts:
   - IP address  
@@ -35,7 +35,7 @@ This tool is designed for **learning, demonstration, and cybersecurity analysis 
 
 ---
 
-### 🌐 2. Service & Banner Detection
+###  2. Service & Banner Detection
 - Identifies services running on each port:
   - Apache / Nginx (Web servers)
   - OpenSSH (Remote access)
@@ -44,7 +44,7 @@ This tool is designed for **learning, demonstration, and cybersecurity analysis 
 
 ---
 
-### ⚠️ 3. Vulnerability Indicators
+###  3. Vulnerability Indicators
 The analyzer flags risky configurations such as:
 - Outdated software versions  
 - Use of insecure protocols (e.g., Telnet)  
@@ -53,7 +53,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-### 📊 4. Risk Scoring System
+###  4. Risk Scoring System
 - Assigns a **risk level** based on detected issues:
   - 🟢 Low Risk → Secure configurations  
   - 🟡 Medium Risk → Minor vulnerabilities  
@@ -63,7 +63,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-### 🌍 5. Domain Intelligence (DNS Analysis)
+###  5. Domain Intelligence (DNS Analysis)
 - Analyzes domain-based Shodan JSON data  
 - Extracts:
   - MX records (mail servers)  
@@ -78,7 +78,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-### 🧠 6. Insight Generation
+###  6. Insight Generation
 - Converts raw JSON into human-readable findings  
 - Explains:
   - Why a configuration is risky  
@@ -86,7 +86,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-### 🖥️ 7. User Interface
+###  7. User Interface
 - Built with **React + Vite**  
 - Clean and interactive UI  
 - Displays:
@@ -96,7 +96,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-## 🧪 Sample Use Cases
+##  Sample Use Cases
 
 - Cybersecurity learning and demonstrations  
 - Understanding Shodan data structure  
@@ -105,7 +105,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React (Vite)  
 - **Language:** JavaScript  
@@ -113,7 +113,7 @@ The analyzer flags risky configurations such as:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - CVE (Common Vulnerabilities and Exposures) mapping  
 - Graph-based visualization of attack surface  
@@ -122,14 +122,14 @@ The analyzer flags risky configurations such as:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This tool is intended for **educational purposes only**.  
 It does not perform real-time scanning and should not be used for unauthorized security testing.
 
 ---
 
-## 📎 Conclusion
+##  Conclusion
 
 The Shodan Offline Analyzer simplifies complex cybersecurity data into meaningful insights, helping users understand system exposure and potential risks without requiring advanced tools or API access.
 
